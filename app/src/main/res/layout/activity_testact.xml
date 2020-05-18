@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testact">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/weblay">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/web"
+                android:visibility="invisible"
+                android:layout_weight="9"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/imag">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gifimage"
+            /></RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reltext">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:textColor="#1BDB1B"
+            android:gravity="center"
+            android:layout_marginTop="250dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:visibility="invisible"
+            android:textSize="20dp"
+            android:text="@string/side"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

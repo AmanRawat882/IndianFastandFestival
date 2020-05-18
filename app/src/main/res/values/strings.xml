@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">आराधना</string>
+    <string name="title_activity_main">आराधना</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Rate App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hindi">व्रत एवं त्यौहार</string>
+    <string name="hindi1">साप्ताहिक व्रत</string>
+    <string name="hind">शेयर करें</string>
+    <string name="back">Back</string>
+    <string name="ad_id_banner">ca-app-pub-1597063430031867/4608983215</string>
+
+    <string name="cal">आराधना </string>
+    <string name="side">कृपया इंटरनेट कनेक्शन ऑन करके नीचे रीफ्रेश बटन दबायें , धन्यवाद।</string>
+    <string name="title_activity_hello">आराधना</string>
+    <string name="ek">12 महीनों की एकादशी</string>
+    <string name="nav">नवरात्री</string>
+    <string name="fest">प्रमुख त्यौहार</string>
+    <string name="pur">पूर्णिमा व्रत</string>
+    <string name="karva">चौथ व्रत</string>
+    <string name="load">आपकी विषय-वस्तु लोड हो रही है कृप्या थोड़ी देर प्रतीक्षा करें,धन्यवाद।</string>
+    <string name="choth">वर्ष भर में प्रत्येक महीने की कृष्ण पक्ष की चतुर्थी तिथि को चौथ माता का व्रत किया जाता है| कुल 12 चौथ में से माघ और कार्तिक महीने की चौथ की कहानी अलग होती है बाकि सभी चौथ पर बारह महीने की कहानी सुनी जाती है| 12 में से 4 चौथ को बड़ा माना जाता है जो सभी लोग अपनी परम्परा अनुसार कुछ भाद्रपद और वैशाख की चौथ को बड़ा मानते है और कुछ लोग मार्गशीर्ष महीने की| नीचे आप सेक्शन में से देखें|
+</string>
+    <string name="type">साल में दो बार नवरात्री आती है-एक चैत्र माह  में और दूसरी अश्विन माह में ,उनकी  पूजा  विधि,व्रत कथा एक समान होती है ,जिन्हें आप नीचे दिए गए विवरण में देख सकते है।</string>
+    <string name="ekadashi">हिन्दू कैलेंडर के अनुसार साल में कुल 24 एकादशी के व्रत आते है जिनमें हर महीने में दो एकादशी आती है- एक चैत्र पक्ष और दूसरी शुक्ल पक्ष एकादशी। साथ ही 3 साल में एक बार अदिकमास(पुरषोतम) आता है जिसकी एकादशी का भी बहुत महत्व होता है ।इन सभी को आप जिन्हें आप नीचे दिए गये विवरण में देख सकते है और उनकी विधि,कथा जान सकते है ।</string>
+</resources>

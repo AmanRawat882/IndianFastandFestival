@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "844677856571",
+    "firebase_url": "https://indianfastandfestival.firebaseio.com",
+    "project_id": "indianfastandfestival",
+    "storage_bucket": "indianfastandfestival.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844677856571:android:d69096ee8aa1b174d24b1e",
+        "android_client_info": {
+          "package_name": "com.docarto.app.indianfastsandfestivals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844677856571-hmr1u198jqpjkvqt8ubvn0bmcgvkhibh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.docarto.app.indianfastsandfestivals",
+            "certificate_hash": "7eb38257934b3f2154bb5811a8bbd9d067e52da2"
+
+          }
+        },
+        {
+          "client_id": "844677856571-t52u91qs6h0hcktpqqc3fmbjlu5rgi8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRqolIl6VSx3SVRWUhqFiPm5DWX2emDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844677856571-t52u91qs6h0hcktpqqc3fmbjlu5rgi8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.docarto.app.indianfastsandfestivals">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vratandVidhi"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".SaptahikVrat" />
+        <activity
+            android:name=".sidebar"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".Hello"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter android:label="Aaradhna">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="app.docarto.com"
+                    android:pathPrefix="/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ekadashivrat" />
+        <activity android:name=".Navratri" />
+        <activity android:name=".Typekkadashi1" />
+        <activity android:name=".Festivals" />
+        <activity android:name=".choth" />
+        <activity android:name=".Purnima" />
+        <activity android:name=".chtre" />
+        <activity android:name=".sawan" />
+        <activity android:name=".kartik" />
+        <activity android:name=".Bhadrpad" />
+        <activity android:name=".festthree" />
+        <activity android:name=".veshak" />
+        <activity android:name=".Notconnection" />
+
+
+
+    </application>
+
+
+</manifest>

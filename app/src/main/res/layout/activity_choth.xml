@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefcc"
+    tools:context="com.docarto.app.indianfastsandfestivals.choth">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/karva"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/leftarrow" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/leftarrow"
+            android:background="@drawable/logo"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:text="@string/choth"
+    android:textColor="#cc730d"
+    android:background="#ffefcc"/>
+        <ListView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffefcc"
+            android:dividerHeight="3dp"
+            android:divider="#d49707"
+            android:padding="1dp"
+            android:id="@+id/list">
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

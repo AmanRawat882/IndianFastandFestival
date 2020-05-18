@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffefcc"
+    tools:context="com.docarto.app.indianfastsandfestivals.November">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="3dp"
+        android:divider="#d49707"
+        android:padding="1dp"
+        android:id="@+id/list">
+
+    </ListView>
+
+</FrameLayout>

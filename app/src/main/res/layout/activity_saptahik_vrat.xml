@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.docarto.app.indianfastsandfestivals.SaptahikVrat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relativeLayout3">
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/leftarrow"
+            android:background="@drawable/logo"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hindi1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/servicename"
+            android:layout_gravity="center"
+             android:layout_marginStart="10dp"
+              />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        >
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefcc"
+    android:dividerHeight="3dp"
+    android:divider="#d49707"
+    android:padding="1dp"
+    android:id="@+id/list">
+</ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:background="#ffefcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+   </LinearLayout>
+
